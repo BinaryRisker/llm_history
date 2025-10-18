@@ -1,5 +1,5 @@
 ---
-chapter_number: 6
+chapter_number: 10
 title: "多模态与Agent：2024年的能力跃升"
 title_en: "Multimodal and Agent Capabilities: 2024 Breakthroughs"
 period: "2024"

@@ -1,5 +1,5 @@
 ---
-chapter_number: 5
+chapter_number: 7
 title: "全球AI竞赛：2023大爆发"
 title_en: "The Global AI Race: 2023 Explosion"
 period: "2023"

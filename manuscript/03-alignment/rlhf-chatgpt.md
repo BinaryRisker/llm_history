@@ -24,7 +24,7 @@ created_date: 2025-10-17
 last_updated: 2025-10-17
 ---
 
-# Chapter 4: 人类对齐的突破：从InstructGPT到ChatGPT
+# Chapter 5: 人类对齐的突破：从InstructGPT到ChatGPT
 
 ## 引言 (Introduction)
 
