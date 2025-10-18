@@ -111,7 +111,19 @@
 - [X] T048 [US1] Write Chapter 8 draft in manuscript/05-global-race-2023/meta-llama.md
 - [X] T049 [US1] Complete Chapters 7-8 with technical explanations and citations
 
-**Part V: Recent Developments (2024-2025)**
+**Part V: Chinese AI Development (2019-2023) 🔴 CRITICAL for 叙事连贯性**
+
+- [ ] T049a [P] [US1] Research Chinese LLM developments (Baidu ERNIE, Alibaba Qwen, other players) and create event cards in assets/timelines/events/
+- [ ] T049b [US1] Write Chapter 9 draft in manuscript/06-chinese-ai/chinese-development.md covering Chinese AI timeline per FR-006
+- [ ] T049c [US1] Document Baidu ERNIE development chronologically (ERNIE 1.0, 2.0, 3.0) with comparable depth to Western coverage per constitution全球视角
+- [ ] T049d [US1] Document Alibaba Qwen development and other major Chinese players (Tencent, ByteDance)
+- [ ] T049e [US1] Add 引言 connecting Chapter 9 to global competition context from Chapters 7-8
+- [ ] T049f [US1] Add technical explanations for Chinese-specific innovations and approaches
+- [ ] T049g [US1] Add 2-3 anecdotes about Chinese AI development and regulatory environment
+- [ ] T049h [US1] Add 小结 transitioning to 2024 multimodal era
+- [ ] T049i [US1] Add citations and validate Chapter 9 completion (8,000-12,000 chars, 80% citation rate)
+
+**Part VI: Recent Developments (2024-2025)**
 
 - [X] T050 [P] [US1] Research 2024-2025 developments and create event cards
 - [X] T051 [US1] Write Chapter 10 draft in manuscript/07-multimodal-era/2024-breakthroughs.md
@@ -121,14 +133,14 @@
 
 **Overall Timeline Validation**
 
-- [ ] T055 [US1] Verify chronological order across all chapters per FR-016 (causal relationships clear)
-- [ ] T056 [US1] Validate all chapter transitions (引言 connects to previous 小结) per constitution叙事连贯性
-- [ ] T057 [US1] Count total events covered (target: 50+ per SC-002)
+- [ ] T055 [US1] Verify chronological order across all 11 chapters (Chapters 1-11) per FR-016 (causal relationships clear)
+- [ ] T056 [US1] Validate all chapter transitions (引言 connects to previous 小结) including Chapter 9 integration per constitution叙事连贯性
+- [ ] T057 [US1] Count total events covered (target: 50+ per SC-002) - ensure Chinese developments included
 - [ ] T058 [US1] Validate technical terms explained on first use (target: 90%+ per SC-004)
 - [ ] T059 [US1] Validate citation coverage (target: 80%+ per SC-008)
-- [ ] T060 [US1] Update overall timeline visualization with all documented events
+- [ ] T060 [US1] Update overall timeline visualization with all documented events including Chinese AI milestones
 
-**Checkpoint**: At this point, User Story 1 (core timeline) is complete and independently testable. Book has 11 main chapters covering 2017-2025 chronologically.
+**Checkpoint**: At this point, User Story 1 (core timeline) is complete and independently testable. Book has 11 main chapters covering 2017-2025 chronologically with full Chinese AI coverage integrated.
 
 ---
 
@@ -154,11 +166,11 @@
 - [ ] T071 [US2] Enhance Chapter 7 with GPT-4 vs Claude strategic differences per acceptance scenario 2
 - [ ] T072 [US2] Enhance Chapter 8 with Meta's open-source strategy and motivation
 
-- [ ] T073 [US2] Write Chapter 9 in manuscript/06-chinese-ai/chinese-development.md per FR-006
-- [ ] T074 [US2] Document Baidu ERNIE development with comparable depth to Western coverage per acceptance scenario 3
-- [ ] T075 [US2] Document Alibaba Qwen development
-- [ ] T076 [US2] Add other major Chinese AI players (Tencent, ByteDance, etc.)
-- [ ] T077 [US2] Complete Chapter 9 with competitive analysis between Chinese and Western approaches
+- [X] T073 [US2] Write Chapter 9 in manuscript/06-chinese-ai/chinese-development.md per FR-006
+- [X] T074 [US2] Document Baidu ERNIE development with comparable depth to Western coverage per acceptance scenario 3
+- [X] T075 [US2] Document Alibaba Qwen development
+- [X] T076 [US2] Add other major Chinese AI players (Tencent, ByteDance, etc.)
+- [X] T077 [US2] Complete Chapter 9 with competitive analysis between Chinese and Western approaches
 
 - [X] T078 [US2] Create company-specific timeline in assets/timelines/company-timelines/openai-timeline.md
 - [X] T079 [P] [US2] Create company-specific timelines for Google, Meta, Anthropic, Baidu, Alibaba
