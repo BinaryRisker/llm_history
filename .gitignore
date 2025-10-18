@@ -1,0 +1,53 @@
+# LLM History Chronicle - .gitignore
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-*
+.vs/
+
+# Build artifacts (if converting to PDF/ePub/HTML)
+build/
+dist/
+output/
+*.pdf
+*.epub
+*.mobi
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node modules (if using tools for Markdown processing)
+node_modules/
+
+# Python cache (if using Python tools)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Personal notes and drafts
+**/drafts/
+**/scratch/
+**/notes.md
+
+# Backup files from editors
+*.backup
+*.orig
