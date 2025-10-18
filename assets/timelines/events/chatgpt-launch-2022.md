@@ -23,7 +23,7 @@ technical_concepts:
   - conversational-ai
   - instruction-following
   - dialogue-optimization
-chapter_id: 04-chatgpt-mainstream
+chapter_id: 04-chatgpt-revolution
 ---
 
 # ChatGPT发布 (2022-11-30)
@@ -360,8 +360,8 @@ On November 30, 2022, OpenAI launched ChatGPT, a conversational AI system based 
 
 ## 相关章节 (Related Chapters)
 
-- [Chapter 6: ChatGPT的诞生](../../../manuscript/04-chatgpt-mainstream/chatgpt-launch.md)
-- [Chapter 7: 全球AI竞赛](../../../manuscript/05-global-competition/ai-race-begins.md)
+- [Chapter 6: ChatGPT的诞生](../../../manuscript/04-chatgpt-revolution/chatgpt-launch.md)
+- [Chapter 7: 全球AI竞赛](../../../manuscript/05-global-race-2023/ai-race-begins.md)
 
 ## 时间线位置 (Timeline Position)
 

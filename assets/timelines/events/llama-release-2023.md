@@ -23,7 +23,7 @@ technical_concepts:
   - chinchilla-optimal
   - open-source-llm
   - model-family
-chapter_id: 05-global-competition
+chapter_id: 05-global-race-2023
 ---
 
 # Meta LLaMA发布 (2023-02-24)
@@ -267,7 +267,7 @@ On February 24, 2023, Meta released LLaMA (Large Language Model Meta AI), a coll
 
 ## 相关章节 (Related Chapters)
 
-- [Chapter 8: Meta开源战略](../../../manuscript/05-global-competition/meta-llama.md)
+- [Chapter 8: Meta开源战略](../../../manuscript/05-global-race-2023/meta-llama.md)
 
 ## 时间线位置 (Timeline Position)
 

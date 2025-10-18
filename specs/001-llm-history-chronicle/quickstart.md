@@ -27,10 +27,12 @@ cd D:\code\github\llm_history
 # Create manuscript directory structure
 mkdir -p manuscript/01-foundation
 mkdir -p manuscript/02-gpt-era
-mkdir -p manuscript/03-parallel-developments
-mkdir -p manuscript/04-chatgpt-mainstream
-mkdir -p manuscript/05-global-competition
-mkdir -p manuscript/06-recent-developments
+mkdir -p manuscript/03-alignment
+mkdir -p manuscript/04-chatgpt-revolution
+mkdir -p manuscript/05-global-race-2023
+mkdir -p manuscript/06-chinese-ai
+mkdir -p manuscript/07-multimodal-era
+mkdir -p manuscript/08-present
 mkdir -p assets/timelines/events
 mkdir -p research/sources/papers
 mkdir -p research/fact-checking

@@ -302,7 +302,7 @@ maximize: E[reward(s, a)] - β * KL(π_θ || π_ref)
 ## 相关章节 (Related Chapters)
 
 - [Chapter 5: RLHF与对齐突破](../../../manuscript/03-alignment-breakthrough/rlhf-chatgpt.md)
-- [Chapter 6: ChatGPT的诞生](../../../manuscript/04-chatgpt-mainstream/chatgpt-launch.md)
+- [Chapter 6: ChatGPT的诞生](../../../manuscript/04-chatgpt-revolution/chatgpt-launch.md)
 
 ## 时间线位置 (Timeline Position)
 

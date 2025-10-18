@@ -23,7 +23,7 @@ technical_concepts:
   - reasoning-models
   - self-play-alignment
   - chip-constraint-innovation
-chapter_id: 06-recent-developments
+chapter_id: 08-present
 ---
 
 # DeepSeek R1发布 (2025-01-20)
@@ -236,8 +236,8 @@ On January 20, 2025, DeepSeek released R1, the first open-source reasoning model
 
 ## 相关章节 (Related Chapters)
 
-- [Chapter 11: 推理模型的兴起](../../../manuscript/06-recent-developments/2025-present.md)
-- [Chapter 12: 中国AI的突破](../../../manuscript/06-recent-developments/chinese-breakthroughs.md)
+- [Chapter 11: 推理模型的兴起](../../../manuscript/08-present/2025-present.md)
+- [Chapter 12: 中国AI的突破](../../../manuscript/08-present/chinese-breakthroughs.md)
 
 ## 时间线位置 (Timeline Position)
 

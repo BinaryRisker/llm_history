@@ -20,7 +20,7 @@ This data model defines the conceptual structure for organizing and managing the
 Represents a major section of the book covering a period or theme in LLM history.
 
 **Attributes**:
-- `chapter_id` (string): Unique identifier (e.g., "01-foundation", "04-chatgpt-mainstream")
+- `chapter_id` (string): Unique identifier (e.g., "01-foundation", "04-chatgpt-revolution")
 - `chapter_number` (integer): Sequential number (1-11)
 - `title` (string): Chapter title in Chinese and English
 - `period` (string): Time period covered (e.g., "2017-2018", "2023-2024")
@@ -303,7 +303,8 @@ Chapter (1) ──────(N) Section
 manuscript/{part}-{theme}/{chapter-slug}.md
 Examples:
 - manuscript/01-foundation/transformer-revolution.md
-- manuscript/04-chatgpt-mainstream/chatgpt-launch.md
+- manuscript/04-chatgpt-revolution/chatgpt-launch.md
+- manuscript/07-multimodal-era/2024-breakthroughs.md
 ```
 
 **Timeline Events**:

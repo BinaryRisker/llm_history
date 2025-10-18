@@ -208,8 +208,8 @@ OpenAI announced in their blog (Radford, 2018) the release of GPT-1...
 ### Cross-References
 **Format**:
 ```markdown
-这一突破为后来的ChatGPT奠定了基础（参见[第6章](../04-chatgpt-mainstream/chatgpt-launch.md)）。
-This breakthrough laid the foundation for ChatGPT (see [Chapter 6](../04-chatgpt-mainstream/chatgpt-launch.md)).
+这一突破为后来的ChatGPT奠定了基础（参见[第6章](../04-chatgpt-revolution/chatgpt-launch.md)）。
+This breakthrough laid the foundation for ChatGPT (see [Chapter 6](../04-chatgpt-revolution/chatgpt-launch.md)).
 
 如[第2章](../01-foundation/attention-mechanism.md)所述，自注意力机制...
 As described in [Chapter 2](../01-foundation/attention-mechanism.md), the self-attention mechanism...

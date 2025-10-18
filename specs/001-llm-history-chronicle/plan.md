@@ -136,28 +136,24 @@ manuscript/
 │   ├── acknowledgments.md
 │   └── reading-guide.md
 ├── 01-foundation/
-│   ├── transformer-revolution.md
-│   └── attention-mechanism.md
+│   ├── transformer-revolution.md (Chapter 1)
+│   └── early-applications.md (Chapter 2)
 ├── 02-gpt-era/
-│   ├── gpt1-breakthrough.md
-│   ├── gpt2-scaling.md
-│   └── gpt3-emergence.md
-├── 03-parallel-developments/
-│   ├── bert-bidirectionality.md
-│   ├── t5-unified.md
-│   └── google-developments.md
-├── 04-chatgpt-mainstream/
-│   ├── rlhf-innovation.md
-│   ├── chatgpt-launch.md
-│   └── gpt4-multimodal.md
-├── 05-global-competition/
-│   ├── meta-llama.md
-│   ├── anthropic-claude.md
-│   ├── baidu-ernie.md
-│   └── alibaba-qwen.md
-├── 06-recent-developments/
-│   ├── 2024-breakthroughs.md
-│   └── 2025-present.md
+│   ├── scaling-up.md (Chapter 3)
+│   └── google-response.md (Chapter 4)
+├── 03-alignment/
+│   └── rlhf-chatgpt.md (Chapter 5)
+├── 04-chatgpt-revolution/
+│   └── chatgpt-launch.md (Chapter 6)
+├── 05-global-race-2023/
+│   ├── ai-race-2023.md (Chapter 7)
+│   └── meta-llama.md (Chapter 8)
+├── 06-chinese-ai/
+│   └── chinese-development.md (Chapter 9 - TBD)
+├── 07-multimodal-era/
+│   └── 2024-breakthroughs.md (Chapter 10)
+├── 08-present/
+│   └── 2025-present.md (Chapter 11)
 └── 99-backmatter/
     ├── timeline-comprehensive.md
     ├── glossary.md

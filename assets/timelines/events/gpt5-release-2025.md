@@ -22,7 +22,7 @@ technical_concepts:
   - multimodal-understanding
   - reduced-hallucination
   - adaptive-computation
-chapter_id: 06-recent-developments
+chapter_id: 08-present
 ---
 
 # GPT-5发布 (2025-08-15)
@@ -302,7 +302,7 @@ On August 15, 2025, OpenAI released GPT-5, the most advanced AI model as of Octo
 
 ## 相关章节 (Related Chapters)
 
-- [Chapter 11: 2025年的AI格局](../../../manuscript/06-recent-developments/2025-present.md)
+- [Chapter 11: 2025年的AI格局](../../../manuscript/08-present/2025-present.md)
 
 ## 时间线位置 (Timeline Position)
 

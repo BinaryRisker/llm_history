@@ -23,7 +23,7 @@ technical_concepts:
   - vision-language-model
   - professional-level-performance
   - rlhf-advanced
-chapter_id: 05-global-competition
+chapter_id: 05-global-race-2023
 ---
 
 # GPT-4发布 (2023-03-14)
@@ -288,7 +288,7 @@ On March 14, 2023, OpenAI published the GPT-4 Technical Report, introducing the 
 
 ## 相关章节 (Related Chapters)
 
-- [Chapter 7: GPT-4与多模态突破](../../../manuscript/05-global-competition/openai-anthropic.md)
+- [Chapter 7: GPT-4与多模态突破](../../../manuscript/05-global-race-2023/openai-anthropic.md)
 
 ## 时间线位置 (Timeline Position)
 

@@ -118,7 +118,7 @@
 **组织**: OpenAI
 **事件**: 基于GPT-3.5的对话AI公开发布
 **影响**: 100万用户5天，AI进入主流大众视野，引发全球AI竞赛
-**参见**: [Chapter 6](../../manuscript/04-chatgpt-mainstream/chatgpt-launch.md)
+**参见**: [Chapter 6](../../manuscript/04-chatgpt-revolution/chatgpt-launch.md)
 
 ---
 
@@ -135,25 +135,25 @@
 **组织**: Meta
 **事件**: 7B到65B参数开源模型家族
 **影响**: 高质量开源模型，引发开源LLM浪潮
-**参见**: [Chapter 8](../../manuscript/05-global-competition/meta-llama.md)
+**参见**: [Chapter 8](../../manuscript/05-global-race-2023/meta-llama.md)
 
 **🔴 2023-03-14** | **GPT-4发布**
 **组织**: OpenAI
 **事件**: 多模态大语言模型，性能大幅提升
 **影响**: 通过多项专业考试，接近人类专家水平
-**参见**: [Chapter 7](../../manuscript/05-global-competition/openai-anthropic.md)
+**参见**: [Chapter 7](../../manuscript/05-global-race-2023/openai-anthropic.md)
 
 **🔵 2023-03-14** | **Claude发布**
 **组织**: Anthropic
 **事件**: Constitutional AI对齐方法的实践
 **影响**: AI安全导向的商业化路径
-**参见**: [Chapter 7](../../manuscript/05-global-competition/openai-anthropic.md)
+**参见**: [Chapter 7](../../manuscript/05-global-race-2023/openai-anthropic.md)
 
 **🔴 2023-03-16** | **百度文心一言发布**
 **组织**: Baidu
 **事件**: 中国首个对标ChatGPT的对话大模型
 **影响**: 中国"百模大战"开启
-**参见**: [Chapter 9](../../manuscript/05-global-competition/chinese-ai-development.md)
+**参见**: [Chapter 9](../../manuscript/05-global-race-2023/chinese-ai-development.md)
 
 **🔵 2023-04-07** | **阿里通义千问发布**
 **组织**: Alibaba
@@ -164,7 +164,7 @@
 **组织**: Alibaba
 **事件**: 中国首个大规模开源高质量大模型
 **影响**: 引发中国开源LLM浪潮
-**参见**: [Chapter 9](../../manuscript/05-global-competition/chinese-ai-development.md)
+**参见**: [Chapter 9](../../manuscript/05-global-race-2023/chinese-ai-development.md)
 
 **🔵 2023-09-25** | **腾讯混元大模型发布**
 **组织**: Tencent
@@ -182,7 +182,7 @@
 **组织**: Google
 **事件**: 100万token上下文窗口
 **影响**: 长上下文处理能力的重大突破
-**参见**: [Chapter 10](../../manuscript/06-recent-developments/2024-breakthroughs.md)
+**参见**: [Chapter 10](../../manuscript/08-present/2024-breakthroughs.md)
 
 **🔴 2024-02-18** | **Sora发布**
 **组织**: OpenAI
@@ -229,7 +229,7 @@
 **组织**: DeepSeek
 **事件**: 开源推理模型，性能接近o1
 **影响**: 中国在推理模型上的重大突破，证明芯片限制下仍可创新
-**参见**: [Chapter 11](../../manuscript/06-recent-developments/2025-present.md)
+**参见**: [Chapter 11](../../manuscript/08-present/2025-present.md)
 
 **🔵 2025-01-22** | **Alibaba Qwen2.5-Max发布**
 **组织**: Alibaba

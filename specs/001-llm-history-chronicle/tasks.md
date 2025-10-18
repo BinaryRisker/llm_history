@@ -24,7 +24,7 @@
 **Purpose**: Project initialization and basic structure for book manuscript
 
 - [X] T001 Create project directory structure per plan.md (manuscript/, assets/, research/)
-- [X] T002 [P] Create manuscript subdirectories (00-frontmatter/, 01-foundation/, 02-gpt-era/, 03-parallel-developments/, 04-chatgpt-mainstream/, 05-global-competition/, 06-recent-developments/, 99-backmatter/)
+- [X] T002 [P] Create manuscript subdirectories (00-frontmatter/, 01-foundation/, 02-gpt-era/, 03-alignment/, 04-chatgpt-revolution/, 05-global-race-2023/, 06-chinese-ai/, 07-multimodal-era/, 08-present/, 99-backmatter/)
 - [X] T003 [P] Create assets subdirectories (timelines/, diagrams/)
 - [X] T004 [P] Create research subdirectories (sources/papers/, sources/articles/, sources/interviews/, fact-checking/)
 - [X] T005 [P] Initialize Git repository tracking for manuscript workflow per research.md
@@ -96,26 +96,26 @@
 **Part III: ChatGPT Era (2021-2022)**
 
 - [X] T039 [P] [US1] Research RLHF, ChatGPT launch and create event cards
-- [X] T040 [US1] Write Chapter 5 draft in manuscript/04-chatgpt-mainstream/rlhf-innovation.md
+- [X] T040 [US1] Write Chapter 5 draft in manuscript/03-alignment/rlhf-chatgpt.md
 - [X] T041 [US1] Add technical explanation for RLHF per FR-012
 - [X] T042 [US1] Complete Chapter 5 with 引言, 小结, citations
 
-- [X] T043 [US1] Write Chapter 6 draft in manuscript/04-chatgpt-mainstream/chatgpt-launch.md per FR-004
+- [X] T043 [US1] Write Chapter 6 draft in manuscript/04-chatgpt-revolution/chatgpt-launch.md per FR-004
 - [X] T044 [US1] Document ChatGPT evolution through major updates per FR-004
 - [X] T045 [US1] Complete Chapter 6 with anecdotes and citations
 
 **Part IV: Global Competition (2023-2024)**
 
 - [X] T046 [P] [US1] Research GPT-4, Claude, LLaMA and create event cards
-- [ ] T047 [US1] Write Chapter 7 draft in manuscript/05-global-competition/openai-anthropic.md covering GPT-4 and Claude
-- [X] T048 [US1] Write Chapter 8 draft in manuscript/05-global-competition/meta-llama.md
+- [X] T047 [US1] Write Chapter 7 draft in manuscript/05-global-race-2023/ai-race-2023.md covering GPT-4 and Claude
+- [X] T048 [US1] Write Chapter 8 draft in manuscript/05-global-race-2023/meta-llama.md
 - [X] T049 [US1] Complete Chapters 7-8 with technical explanations and citations
 
 **Part V: Recent Developments (2024-2025)**
 
 - [X] T050 [P] [US1] Research 2024-2025 developments and create event cards
-- [X] T051 [US1] Write Chapter 10 draft in manuscript/06-recent-developments/2024-breakthroughs.md
-- [X] T052 [US1] Write Chapter 11 draft in manuscript/06-recent-developments/2025-present.md through October 2025 per FR-017
+- [X] T051 [US1] Write Chapter 10 draft in manuscript/07-multimodal-era/2024-breakthroughs.md
+- [X] T052 [US1] Write Chapter 11 draft in manuscript/08-present/2025-present.md through October 2025 per FR-017
 - [X] T053 [US1] Add "Last Updated: October 2025" note per edge case handling
 - [X] T054 [US1] Complete Chapters 10-11 with final citations
 
@@ -154,7 +154,7 @@
 - [ ] T071 [US2] Enhance Chapter 7 with GPT-4 vs Claude strategic differences per acceptance scenario 2
 - [ ] T072 [US2] Enhance Chapter 8 with Meta's open-source strategy and motivation
 
-- [ ] T073 [US2] Write Chapter 9 in manuscript/05-global-competition/chinese-ai-development.md per FR-006
+- [ ] T073 [US2] Write Chapter 9 in manuscript/06-chinese-ai/chinese-development.md per FR-006
 - [ ] T074 [US2] Document Baidu ERNIE development with comparable depth to Western coverage per acceptance scenario 3
 - [ ] T075 [US2] Document Alibaba Qwen development
 - [ ] T076 [US2] Add other major Chinese AI players (Tencent, ByteDance, etc.)
