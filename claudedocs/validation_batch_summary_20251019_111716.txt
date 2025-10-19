@@ -1,0 +1,10 @@
+BATCH VALIDATION SUMMARY
+======================================================================
+
+Timestamp: 2025-10-19 11:17:16
+
+Word Counts (T159):
+  Total characters: 217,496
+  Chapters in range: 0/11
+  Status: WARN
+
