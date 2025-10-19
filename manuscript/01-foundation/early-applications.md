@@ -1,6 +1,6 @@
 ---
 chapter_number: 2
-title: "预训练范式的诞生：GPT-1与BERT"
+chapter_title: "预训练范式的诞生：GPT-1与BERT"
 title_en: "The Birth of Pre-training Paradigm: GPT-1 and BERT"
 period: "2018"
 status: draft

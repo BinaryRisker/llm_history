@@ -1,6 +1,6 @@
 ---
 chapter_number: 8
-title: "Meta的开源革命：LLaMA引爆AI民主化"
+chapter_title: "Meta的开源革命：LLaMA引爆AI民主化"
 title_en: "Meta's Open Source Revolution: LLaMA Triggers AI Democratization"
 period: "2023-2024"
 status: draft

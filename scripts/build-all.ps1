@@ -6,7 +6,7 @@ Write-Host "=========================================" -ForegroundColor Cyan
 Write-Host ""
 
 # Default cover image
-$coverImage = "assets/images/cover-5-complex.svg"
+$coverImage = "assets/images/cover-5-complex.png"
 Write-Host "[INFO] Using cover: $coverImage" -ForegroundColor Cyan
 
 # Check if Pandoc is installed
@@ -26,12 +26,17 @@ New-Item -ItemType Directory -Force -Path output | Out-Null
 New-Item -ItemType Directory -Force -Path output/assets/images | Out-Null
 Copy-Item assets/images/*.svg output/assets/images/ -Force
 
+# Copy PNG files if they exist (for PDF)
+if (Test-Path "assets/images/*.png") {
+    Copy-Item assets/images/*.png output/assets/images/ -Force
+}
+
 # Copy config files for HTML styling
 New-Item -ItemType Directory -Force -Path output/config | Out-Null
 Copy-Item config/html-style.css output/config/ -Force
 
-# Chapter files in correct chronological order
-$mdFiles = @(
+# Chapter files in correct chronological order (for HTML - with cover first)
+$htmlFiles = @(
     "manuscript/00-frontmatter/cover.md",
     "manuscript/00-frontmatter/preface.md",
     "manuscript/00-frontmatter/reading-guide.md",
@@ -52,12 +57,33 @@ $mdFiles = @(
     "manuscript/99-backmatter/index.md"
 )
 
-Write-Host "Total files: $($mdFiles.Count) (including cover)" -ForegroundColor Cyan
+# ePub files (no cover.md - cover is set in metadata)
+$epubFiles = @(
+    "manuscript/00-frontmatter/preface.md",
+    "manuscript/00-frontmatter/reading-guide.md",
+    "manuscript/00-frontmatter/acknowledgments.md",
+    "manuscript/01-foundation/transformer-revolution.md",
+    "manuscript/01-foundation/early-applications.md",
+    "manuscript/02-gpt-era/scaling-up.md",
+    "manuscript/02-gpt-era/google-response.md",
+    "manuscript/03-alignment/rlhf-chatgpt.md",
+    "manuscript/04-chatgpt-revolution/chatgpt-launch.md",
+    "manuscript/05-global-race-2023/ai-race-2023.md",
+    "manuscript/05-global-race-2023/meta-llama.md",
+    "manuscript/06-chinese-ai/chinese-development.md",
+    "manuscript/07-multimodal-era/2024-breakthroughs.md",
+    "manuscript/08-present/2025-present.md",
+    "manuscript/99-backmatter/glossary.md",
+    "manuscript/99-backmatter/references.md",
+    "manuscript/99-backmatter/index.md"
+)
+
+Write-Host "Total HTML files: $($htmlFiles.Count) | EPUB files: $($epubFiles.Count)" -ForegroundColor Cyan
 Write-Host ""
 
 # 1. Generate HTML
 Write-Host "[1/3] Generating HTML..." -ForegroundColor Yellow
-$htmlArgs = $mdFiles + @(
+$htmlArgs = $htmlFiles + @(
     "-o", "output/llm-history-chronicle.html",
     "--standalone",
     "--toc",
@@ -78,7 +104,7 @@ if (Test-Path "output/llm-history-chronicle.html") {
 # 2. Generate ePub
 Write-Host ""
 Write-Host "[2/3] Generating ePub..." -ForegroundColor Yellow
-$epubArgs = $mdFiles + @(
+$epubArgs = $epubFiles + @(
     "-o", "output/llm-history-chronicle.epub",
     "--metadata-file=config/epub-metadata.yaml",
     "--toc",
@@ -91,6 +117,9 @@ if (Test-Path "output/llm-history-chronicle.epub") {
     $epubSize = (Get-Item "output/llm-history-chronicle.epub").Length / 1KB
     $epubSizeRounded = [math]::Round($epubSize, 1)
     Write-Host "[OK] ePub generated: output/llm-history-chronicle.epub ($epubSizeRounded KB)" -ForegroundColor Green
+
+    # Add EPUB 2.0 cover meta tag for better e-reader compatibility
+    & powershell -ExecutionPolicy Bypass -File scripts/fix-epub-cover-simple.ps1
 }
 
 # 3. Generate PDF
@@ -98,13 +127,42 @@ Write-Host ""
 Write-Host "[3/3] Generating PDF..." -ForegroundColor Yellow
 
 if (Get-Command xelatex -ErrorAction SilentlyContinue) {
-    $pdfArgs = $mdFiles + @(
+    # Check if PNG cover exists for PDF
+    $pngCoverExists = Test-Path "assets/images/cover-5-complex.png"
+
+    if ($pngCoverExists) {
+        Write-Host "[INFO] Using PNG cover for PDF" -ForegroundColor Cyan
+        # PDF-specific file list with PNG cover
+        $pdfFiles = @(
+            "manuscript/00-frontmatter/cover-pdf.md",
+            "manuscript/00-frontmatter/preface.md",
+            "manuscript/00-frontmatter/reading-guide.md",
+            "manuscript/00-frontmatter/acknowledgments.md",
+            "manuscript/01-foundation/transformer-revolution.md",
+            "manuscript/01-foundation/early-applications.md",
+            "manuscript/02-gpt-era/scaling-up.md",
+            "manuscript/02-gpt-era/google-response.md",
+            "manuscript/03-alignment/rlhf-chatgpt.md",
+            "manuscript/04-chatgpt-revolution/chatgpt-launch.md",
+            "manuscript/05-global-race-2023/ai-race-2023.md",
+            "manuscript/05-global-race-2023/meta-llama.md",
+            "manuscript/06-chinese-ai/chinese-development.md",
+            "manuscript/07-multimodal-era/2024-breakthroughs.md",
+            "manuscript/08-present/2025-present.md",
+            "manuscript/99-backmatter/glossary.md",
+            "manuscript/99-backmatter/references.md",
+            "manuscript/99-backmatter/index.md"
+        )
+    } else {
+        Write-Host "[WARN] PNG cover not found, using SVG (may not render)" -ForegroundColor Yellow
+        Write-Host "       To fix: Open cover-to-png.html and save PNG" -ForegroundColor Yellow
+        $pdfFiles = $mdFiles
+    }
+
+    $pdfArgs = $pdfFiles + @(
         "-o", "output/llm-history-chronicle.pdf",
         "--metadata-file=config/pdf-metadata.yaml",
-        "--pdf-engine=xelatex",
-        "--toc",
-        "--number-sections",
-        "-V", "CJKmainfont=SimSun"
+        "--pdf-engine=xelatex"
     )
     & pandoc $pdfArgs
 

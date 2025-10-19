@@ -1,6 +1,6 @@
 ---
 chapter_number: 1
-title: "Transformer革命：一切注意力的开端"
+chapter_title: "Transformer革命：一切注意力的开端"
 title_en: "The Transformer Revolution: Attention is All You Need"
 period: "2017-06"
 status: draft

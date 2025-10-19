@@ -1,6 +1,6 @@
 ---
 chapter_number: 4
-title: "Google的战略回应：T5与PaLM的探索"
+chapter_title: "Google的战略回应：T5与PaLM的探索"
 title_en: "Google's Strategic Response: T5 and PaLM Exploration"
 period: "2019-2022"
 status: draft

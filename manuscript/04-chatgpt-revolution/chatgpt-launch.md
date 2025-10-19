@@ -1,6 +1,6 @@
 ---
 chapter_number: 6
-title: "ChatGPT横空出世：AI的iPhone时刻"
+chapter_title: "ChatGPT横空出世：AI的iPhone时刻"
 title_en: "ChatGPT's Breakthrough: The iPhone Moment of AI"
 period: "2022-11"
 status: draft

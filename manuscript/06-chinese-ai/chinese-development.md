@@ -1,6 +1,6 @@
 ---
 chapter_number: 9
-title: "中国AI的崛起：从追赶到并跑"
+chapter_title: "中国AI的崛起：从追赶到并跑"
 title_en: "The Rise of Chinese AI: From Catching Up to Running Side-by-Side"
 period: "2019-2025"
 status: draft

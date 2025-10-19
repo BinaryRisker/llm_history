@@ -1,6 +1,6 @@
 ---
 chapter_number: 3
-title: "规模化探索：从GPT-2到GPT-3"
+chapter_title: "规模化探索：从GPT-2到GPT-3"
 title_en: "Scaling Up: From GPT-2 to GPT-3"
 period: "2019-2020"
 status: draft

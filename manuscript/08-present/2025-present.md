@@ -1,6 +1,6 @@
 ---
 chapter_number: 11
-title: "2025年的AI：中美并驾齐驱，共同奔向AGI"
+chapter_title: "2025年的AI：中美并驾齐驱，共同奔向AGI"
 title_en: "AI in 2025: US and China Side-by-Side, Together Towards AGI"
 period: "2025-01至2025-10"
 status: draft

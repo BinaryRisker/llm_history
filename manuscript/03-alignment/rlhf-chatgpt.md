@@ -1,6 +1,6 @@
 ---
 chapter_number: 5
-title: "人类对齐的突破：从InstructGPT到ChatGPT"
+chapter_title: "人类对齐的突破：从InstructGPT到ChatGPT"
 title_en: "The Alignment Breakthrough: From InstructGPT to ChatGPT"
 period: "2021-2022"
 status: draft

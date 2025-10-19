@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SVG to PNG Converter</title>
+</head>
+<body>
+    <h1>Converting SVG to PNG...</h1>
+    <canvas id="canvas" width="800" height="1200" style="border: 1px solid #ccc;"></canvas>
+    <br>
+    <button id="downloadBtn" style="display:none; padding: 15px 30px; font-size: 16px; background: #667eea; color: white; border: none; border-radius: 6px; cursor: pointer;">
+        Download PNG
+    </button>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        // Load SVG
+        const img = new Image();
+        img.onload = function() {
+            ctx.drawImage(img, 0, 0, 800, 1200);
+            downloadBtn.style.display = 'block';
+
+            // Auto download
+            setTimeout(() => {
+                downloadBtn.click();
+            }, 500);
+        };
+
+        // SVG file path
+        img.src = 'assets/images/cover-5-complex.svg';
+
+        downloadBtn.addEventListener('click', function() {
+            canvas.toBlob(function(blob) {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'cover-5-complex.png';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+
+                alert('PNG已保存到下载文件夹！\n\n请将下载的 cover-5-complex.png 移动到：\nD:\\code\\github\\llm_history\\assets\\images\\');
+            }, 'image/png');
+        });
+    </script>
+</body>
+</html>
