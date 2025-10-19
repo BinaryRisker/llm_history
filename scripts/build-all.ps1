@@ -22,6 +22,10 @@ pandoc --version | Select-Object -First 1
 # Create output directory
 New-Item -ItemType Directory -Force -Path output | Out-Null
 
+# Copy assets to output directory for HTML
+New-Item -ItemType Directory -Force -Path output/assets/images | Out-Null
+Copy-Item assets/images/*.svg output/assets/images/ -Force
+
 # Chapter files in correct chronological order
 $mdFiles = @(
     "manuscript/00-frontmatter/cover.md",
