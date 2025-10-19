@@ -1,0 +1,23 @@
+---
+title: "大语言模型编年史：从Transformer到ChatGPT的AI革命"
+title-en: "Chronicle of Large Language Models: The AI Revolution from Transformer to ChatGPT"
+author: "AI History Chronicler"
+date: "2025年10月"
+lang: zh-CN
+documentclass: book
+geometry:
+  - margin=2.5cm
+  - papersize=a5
+fontsize: 11pt
+mainfont: "SimSun"
+sansfont: "SimHei"
+monofont: "Consolas"
+CJKmainfont: "SimSun"
+linestretch: 1.5
+toc: true
+toc-depth: 2
+number-sections: true
+colorlinks: true
+linkcolor: blue
+urlcolor: blue
+---

@@ -1,0 +1,48 @@
+# 章节文件顺序列表
+# Chapter File Order List
+#
+# 此文件定义了书稿的正确章节顺序
+# This file defines the correct chapter order for the manuscript
+
+# 前言 | Front Matter
+manuscript/00-frontmatter/preface.md
+manuscript/00-frontmatter/reading-guide.md
+manuscript/00-frontmatter/acknowledgments.md
+
+# 第1章：Transformer革命 (2017年6月)
+manuscript/01-foundation/transformer-revolution.md
+
+# 第2章：预训练范式的诞生 (2018年)
+manuscript/01-foundation/early-applications.md
+
+# 第3章：规模化探索 (2019-2020年)
+manuscript/02-gpt-era/scaling-up.md
+
+# 第4章：Google的战略回应 (2019-2022年)
+manuscript/02-gpt-era/google-response.md
+
+# 第5章：RLHF与ChatGPT的诞生 (2021-2022年)
+manuscript/03-alignment/rlhf-chatgpt.md
+
+# 第6章：ChatGPT震撼发布 (2022年11月)
+manuscript/04-chatgpt-revolution/chatgpt-launch.md
+
+# 第7章：2023全球AI竞赛
+manuscript/05-global-race-2023/ai-race-2023.md
+
+# 第8章：Meta的开源战略
+manuscript/05-global-race-2023/meta-llama.md
+
+# 第9章：中国AI发展
+manuscript/06-chinese-ai/chinese-development.md
+
+# 第10章：多模态时代 (2024年)
+manuscript/07-multimodal-era/2024-breakthroughs.md
+
+# 第11章：2025年现状
+manuscript/08-present/2025-present.md
+
+# 附录 | Back Matter
+manuscript/99-backmatter/glossary.md
+manuscript/99-backmatter/references.md
+manuscript/99-backmatter/index.md
