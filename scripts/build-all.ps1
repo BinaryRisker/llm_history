@@ -26,6 +26,10 @@ New-Item -ItemType Directory -Force -Path output | Out-Null
 New-Item -ItemType Directory -Force -Path output/assets/images | Out-Null
 Copy-Item assets/images/*.svg output/assets/images/ -Force
 
+# Copy config files for HTML styling
+New-Item -ItemType Directory -Force -Path output/config | Out-Null
+Copy-Item config/html-style.css output/config/ -Force
+
 # Chapter files in correct chronological order
 $mdFiles = @(
     "manuscript/00-frontmatter/cover.md",
