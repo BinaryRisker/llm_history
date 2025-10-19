@@ -11,25 +11,25 @@
 ### Agent (AI智能体)
 具有自主行为能力的AI系统，可以感知环境、制定计划、使用工具并执行复杂任务。代表了AI从"回答问题"到"完成任务"的演进。
 
-**首次出现**: [第10章](../05-global-race-2023/multimodal-agents.md)
+**首次出现**: [第10章](../07-multimodal-era/2024-breakthroughs.md)
 **相关概念**: 工具调用、自主性、Computer Use
 
 ### AGI (Artificial General Intelligence, 通用人工智能)
 具有与人类相当的广泛认知能力的AI系统，能够理解、学习和应用知识到任何智力任务。AI研究的终极目标。
 
-**首次出现**: [第11章](../08-present/agi-race.md)
+**首次出现**: [第11章](../08-present/2025-present.md)
 **相关概念**: ASI、对齐问题、超级智能
 
 ### API (Application Programming Interface, 应用程序接口)
 允许开发者通过代码调用AI模型服务的接口。OpenAI的API模式开创了AI商业化的新范式。
 
-**首次出现**: [第4章](../02-gpt-era/gpt3-breakthrough.md)
+**首次出现**: [第4章](../02-gpt-era/scaling-up.md)
 **相关概念**: 云服务、商业化、付费订阅
 
 ### Anthropic (安思)
 由Dario和Daniela Amodei兄妹于2021年创立的AI安全公司，开发Claude系列模型，倡导Constitutional AI方法。
 
-**首次出现**: [第7章](../05-global-race-2023/openai-anthropic.md)
+**首次出现**: [第7章](../05-global-race-2023/ai-race-2023.md)
 **相关概念**: Claude、Constitutional AI、AI安全
 
 ### 注意力机制 (Attention Mechanism)
@@ -45,13 +45,13 @@
 ### 百度 (Baidu)
 中国最大的搜索引擎公司，在ChatGPT发布后3.5个月推出文心一言，成为中国AI竞赛的首发响应者。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 文心一言、ERNIE、百模大战
 
 ### 百模大战
 2023年ChatGPT引发的中国AI产业竞赛现象，数十家公司在短时间内发布大语言模型，争夺市场份额。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 中国AI、文心一言、通义千问
 
 ### BERT (Bidirectional Encoder Representations from Transformers)
@@ -73,31 +73,31 @@ OpenAI在2022年11月推出的对话式AI系统，基于GPT-3.5并使用RLHF技�
 ### ChatGLM (智谱清言)
 智谱AI在2023年3月开源的对话大模型，是中国首个开源对话大模型，引领了中国开源AI浪潮。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 智谱AI、开源模型、中文优化
 
 ### Claude
 Anthropic开发的大语言模型系列，以安全性、诚实性和长文本处理能力著称，是ChatGPT的主要竞争对手之一。
 
-**首次出现**: [第7章](../05-global-race-2023/openai-anthropic.md)
+**首次出现**: [第7章](../05-global-race-2023/ai-race-2023.md)
 **相关概念**: Anthropic、Constitutional AI、HHH原则
 
 ### Computer Use
 Anthropic在Claude 3.5中引入的功能，允许AI直接控制计算机（鼠标、键盘、应用程序），实现真正的AI Agent。
 
-**首次出现**: [第10章](../05-global-race-2023/multimodal-agents.md)
+**首次出现**: [第10章](../07-multimodal-era/2024-breakthroughs.md)
 **相关概念**: Agent、自主性、工具调用
 
 ### Constitutional AI (宪法AI)
 Anthropic提出的AI对齐方法，通过预定义的原则（Constitution）让AI自我评估和改进，减少人类标注依赖。
 
-**首次出现**: [第7章](../05-global-race-2023/openai-anthropic.md)
+**首次出现**: [第7章](../05-global-race-2023/ai-race-2023.md)
 **相关概念**: AI对齐、RLHF、安全性
 
 ### CUDA
 Nvidia在2006年推出的并行计算平台，让GPU可用于通用计算，意外成为AI时代的关键基础设施。
 
-**首次出现**: [第12章](../08-present/chip-war.md)
+**首次出现**: [第12章](../08-present/2025-present.md)
 **相关概念**: GPU、Nvidia、算力
 
 ---
@@ -113,13 +113,13 @@ Nvidia在2006年推出的并行计算平台，让GPU可用于通用计算，意�
 ### DeepSeek (深度求索)
 由幻方量化创始人梁文锋于2023年创立的中国AI公司，通过MoE架构创新和算法优化，在受限芯片环境下实现突破性性能。
 
-**首次出现**: [第10章](../05-global-race-2023/chinese-innovation.md)
+**首次出现**: [第10章](../06-chinese-ai/chinese-development.md)
 **相关概念**: MoE、算法优化、国产芯片
 
 ### 豆包 (Doubao)
 字节跳动在2024年推出的AI助手产品，采用免费策略，快速成为中国日活最高的AI产品之一。
 
-**首次出现**: [第10章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第10章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 字节跳动、免费策略、Coze
 
 ---
@@ -129,7 +129,7 @@ Nvidia在2006年推出的并行计算平台，让GPU可用于通用计算，意�
 ### ERNIE (Enhanced Representation through Knowledge Integration, 文心)
 百度开发的预训练语言模型系列，针对中文和多语言场景优化，是中国AI发展的代表性成果。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 知识增强、中文NLP、百度
 
 ---
@@ -149,7 +149,7 @@ Nvidia在2006年推出的并行计算平台，让GPU可用于通用计算，意�
 ### Gemini
 Google开发的多模态大语言模型系列，作为对抗ChatGPT的主力产品，经历了从Bard到Gemini的品牌演进。
 
-**首次出现**: [第7章](../05-global-race-2023/google-response.md)
+**首次出现**: [第7章](../02-gpt-era/google-response.md)
 **相关概念**: Google、多模态、TPU
 
 ### Google (谷歌)
@@ -161,7 +161,7 @@ Google开发的多模态大语言模型系列，作为对抗ChatGPT的主力产�
 ### GPU (Graphics Processing Unit, 图形处理器)
 原本用于图形渲染的处理器，因其强大的并行计算能力成为AI训练的核心硬件，Nvidia GPU主导了AI算力市场。
 
-**首次出现**: [第12章](../08-present/chip-war.md)
+**首次出现**: [第12章](../08-present/2025-present.md)
 **相关概念**: CUDA、Nvidia、并行计算、算力
 
 ### GPT (Generative Pre-trained Transformer)
@@ -173,7 +173,7 @@ OpenAI开发的生成式预训练Transformer模型系列，包括GPT-1、GPT-2�
 ### Grok
 xAI（Elon Musk创立）开发的大语言模型，以"追求真相"和减少政治正确性为特色，Grok-1开源展现314B参数规模。
 
-**首次出现**: [第11章](../08-present/new-players.md)
+**首次出现**: [第11章](../08-present/2025-present.md)
 **相关概念**: xAI、开源模型、Elon Musk
 
 ---
@@ -183,25 +183,25 @@ xAI（Elon Musk创立）开发的大语言模型，以"追求真相"和减少政
 ### HHH原则 (Helpful, Honest, Harmless)
 Anthropic提出的AI对齐三原则：有用性、诚实性、无害性，是Claude模型训练和评估的核心标准。
 
-**首次出现**: [第7章](../05-global-race-2023/openai-anthropic.md)
+**首次出现**: [第7章](../05-global-race-2023/ai-race-2023.md)
 **相关概念**: Claude、Constitutional AI、AI对齐
 
 ### 幻觉 (Hallucination)
 大语言模型生成看似合理但实际错误或虚构信息的现象，是当前LLM的主要技术挑战之一。
 
-**首次出现**: [第4章](../02-gpt-era/gpt3-breakthrough.md)
+**首次出现**: [第4章](../02-gpt-era/scaling-up.md)
 **相关概念**: 可靠性、事实准确性、模型局限
 
 ### 华为 (Huawei)
 中国通信设备巨头，在美国芯片禁令下自主研发昇腾910C芯片，成为芯片战中国突围的代表。
 
-**首次出现**: [第12章](../08-present/chip-war.md)
+**首次出现**: [第12章](../08-present/2025-present.md)
 **相关概念**: 昇腾910C、芯片战、国产芯片、盘古模型
 
 ### 混元 (Hunyuan)
 腾讯开发的大语言模型系列，深度整合到微信、QQ等12亿用户的社交生态中。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 腾讯、社交生态、应用整合
 
 ---
@@ -251,20 +251,26 @@ Facebook母公司，AI开源运动的引领者，通过LLaMA系列模型开源�
 ### Microsoft (微软)
 通过100亿美元投资OpenAI获得AI时代入场券的科技巨头，将GPT能力整合到全产品线Copilot生态。
 
-**首次出现**: [第6章](../04-chatgpt-revolution/industry-response.md)
+**首次出现**: [第6章](../04-chatgpt-revolution/chatgpt-launch.md)
 **相关概念**: OpenAI、Copilot、Azure、GPT-5集成
 
 ### MoE (Mixture of Experts, 混合专家模型)
 一种模型架构，通过多个专家子网络和路由机制提高模型效率，DeepSeek和Llama 4采用此架构实现性能突破。
 
-**首次出现**: [第10章](../05-global-race-2023/chinese-innovation.md)
+**首次出现**: [第10章](../06-chinese-ai/chinese-development.md)
 **相关概念**: DeepSeek、模型架构、参数效率
 
 ### 多模态模型 (Multimodal Model)
 能够处理和生成多种类型数据（如文本、图像、音频、视频）的AI模型，代表了大语言模型发展的重要方向。
 
-**首次出现**: [第7章](../05-global-race-2023/openai-anthropic.md)
+**首次出现**: [第7章](../05-global-race-2023/ai-race-2023.md)
 **相关概念**: GPT-4、视觉-语言模型、Gemini
+
+### 多头注意力 (Multi-Head Attention)
+Transformer架构中的关键机制，通过并行运行多个独立的注意力"头"，让模型能从多个不同的"视角"同时理解序列，每个头关注不同类型的语言现象（如句法、语义、指代关系）。
+
+**首次出现**: [第1章](../01-foundation/transformer-revolution.md)
+**相关概念**: 自注意力机制、Transformer、注意力机制
 
 ### 掩码语言模型 (Masked Language Model)
 BERT采用的预训练方法，通过随机遮盖输入中的词汇让模型预测，学习双向上下文表示。
@@ -279,7 +285,7 @@ BERT采用的预训练方法，通过随机遮盖输入中的词汇让模型预�
 ### Nvidia (英伟达)
 AI算力时代的霸主，GPU芯片占据AI训练市场80%+份额，Blackwell系列架构（2025）实现25倍效率提升。
 
-**首次出现**: [第12章](../08-present/chip-war.md)
+**首次出现**: [第12章](../08-present/2025-present.md)
 **相关概念**: GPU、CUDA、H100、芯片战、Blackwell
 
 ### NLP (Natural Language Processing, 自然语言处理)
@@ -305,7 +311,7 @@ AI算力时代的霸主，GPU芯片占据AI训练市场80%+份额，Blackwell系
 ### 盘古模型 (Pangu)
 华为开发的大语言模型系列，专注于工业场景应用，覆盖煤矿、气象、药物研发等垂直领域。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 华为、行业模型、垂直应用
 
 ### 参数量 (Parameters)
@@ -317,8 +323,14 @@ AI算力时代的霸主，GPU芯片占据AI训练市场80%+份额，Blackwell系
 ### 提示工程 (Prompt Engineering)
 设计和优化输入提示词以引导大语言模型产生期望输出的技术，是使用LLM的关键技能。
 
-**首次出现**: [第4章](../02-gpt-era/gpt3-breakthrough.md)
+**首次出现**: [第4章](../02-gpt-era/scaling-up.md)
 **相关概念**: In-context Learning、Few-shot Learning
+
+### 位置编码 (Positional Encoding)
+Transformer架构中为序列中的每个位置添加位置信息的机制，解决了自注意力机制本身无法区分词序的问题。通常使用正弦和余弦函数编码位置信息。
+
+**首次出现**: [第1章](../01-foundation/transformer-revolution.md)
+**相关概念**: Transformer、自注意力机制、序列建模
 
 ### 预训练 (Pre-training)
 在大规模无标注数据上训练模型的阶段，使模型学习语言的通用表示，为后续微调奠定基础。
@@ -333,7 +345,7 @@ AI算力时代的霸主，GPU芯片占据AI训练市场80%+份额，Blackwell系
 ### Qwen (通义千问)
 阿里巴巴达摩院开发的大语言模型系列，面向中文和多语言场景，是中国AI发展的代表性成果之一。在HuggingFace排名全球前三。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 阿里巴巴、多模态、开源模型
 
 ---
@@ -343,7 +355,7 @@ AI算力时代的霸主，GPU芯片占据AI训练市场80%+份额，Blackwell系
 ### RLHF (Reinforcement Learning from Human Feedback)
 通过人类反馈进行强化学习的训练方法，是使大语言模型更好地遵循人类意图和价值观的关键技术。ChatGPT的成功很大程度归功于RLHF。
 
-**首次出现**: [第5章](../04-chatgpt-revolution/rlhf-innovation.md)
+**首次出现**: [第5章](../03-alignment/rlhf-chatgpt.md)
 **相关概念**: 人类对齐、指令微调、ChatGPT
 
 ---
@@ -353,13 +365,13 @@ AI算力时代的霸主，GPU芯片占据AI训练市场80%+份额，Blackwell系
 ### 算法优化
 在硬件资源受限情况下，通过改进算法提升模型性能的技术路线，DeepSeek以1/10成本实现GPT-4级性能，证明算法可以弥补硬件差距。
 
-**首次出现**: [第10章](../05-global-race-2023/chinese-innovation.md)
+**首次出现**: [第10章](../06-chinese-ai/chinese-development.md)
 **相关概念**: DeepSeek、MoE、芯片战
 
 ### 昇腾910C (Ascend 910C)
 华为自主研发的AI训练芯片，7nm工艺，性能接近Nvidia A100，是中国在芯片战中的重要突破。
 
-**首次出现**: [第12章](../08-present/chip-war.md)
+**首次出现**: [第12章](../08-present/2025-present.md)
 **相关概念**: 华为、国产芯片、芯片战
 
 ### 缩放定律 (Scaling Laws)
@@ -381,7 +393,7 @@ Transformer架构的核心机制，允许序列中的每个元素同时关注序
 ### 腾讯 (Tencent)
 中国社交生态巨头，拥有微信、QQ等12亿用户，通过混元模型深度整合AI能力到社交产品。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 混元、社交生态、微信
 
 ### Token
@@ -393,7 +405,7 @@ Transformer架构的核心机制，允许序列中的每个元素同时关注序
 ### TPU (Tensor Processing Unit, 张量处理单元)
 Google自研的AI专用芯片，专为Transformer等深度学习模型优化，与Nvidia GPU形成竞争关系。
 
-**首次出现**: [第7章](../05-global-race-2023/google-response.md)
+**首次出现**: [第7章](../02-gpt-era/google-response.md)
 **相关概念**: GPU、Google、AI芯片
 
 ### Transformer
@@ -420,10 +432,16 @@ Google在2017年提出的神经网络架构，完全基于注意力机制，摒�
 **首次出现**: [第2章](../01-foundation/early-applications.md)
 **相关概念**: 预训练、迁移学习、指令微调
 
+### 迁移学习 (Transfer Learning)
+将在一个任务上学到的知识应用到另一个相关任务的机器学习方法。在NLP领域，预训练-微调范式是迁移学习的典型应用。
+
+**首次出现**: [第2章](../01-foundation/early-applications.md)
+**相关概念**: 预训练、微调、少样本学习
+
 ### 文心一言 (ERNIE Bot)
 百度基于ERNIE模型开发的对话式AI产品，2023年3月发布，是中国首个对标ChatGPT的大语言模型对话产品。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 百度、ERNIE、百模大战
 
 ---
@@ -433,7 +451,7 @@ Google在2017年提出的神经网络架构，完全基于注意力机制，摒�
 ### xAI
 Elon Musk于2023年创立的AI公司，开发Grok模型，以"追求真相"和减少政治正确性为特色，建有全球最大AI训练集群（10万+H100）。
 
-**首次出现**: [第11章](../08-present/new-players.md)
+**首次出现**: [第11章](../08-present/2025-present.md)
 **相关概念**: Grok、Elon Musk、开源模型
 
 ---
@@ -453,25 +471,25 @@ Elon Musk于2023年创立的AI公司，开发Grok模型，以"追求真相"和�
 ### 字节跳动 (ByteDance)
 开发抖音、TikTok的中国互联网公司，通过豆包AI产品和Coze平台在AI赛道快速崛起，采用免费策略获得最高日活。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: 豆包、Coze、算法基因
 
 ### 智谱AI (Zhipu AI)
 由清华大学团队创立的AI公司，2023年3月开源ChatGLM成为中国开源AI先锋，以知识图谱增强为特色。
 
-**首次出现**: [第9章](../05-global-race-2023/chinese-ai-development.md)
+**首次出现**: [第9章](../06-chinese-ai/chinese-development.md)
 **相关概念**: ChatGLM、开源先锋、知识图谱
 
 ### 指令微调 (Instruction Tuning)
 通过在格式化为指令-响应对的数据上进行微调，使模型更好地理解和遵循人类指令的训练方法。
 
-**首次出现**: [第5章](../04-chatgpt-revolution/rlhf-innovation.md)
+**首次出现**: [第5章](../03-alignment/rlhf-chatgpt.md)
 **相关概念**: RLHF、监督微调
 
 ### 芯片战 (Chip War)
 2022年10月起美国对中国实施AI芯片出口管制，禁止Nvidia H100/A100出口，倒逼中国发展国产芯片和算法优化的地缘政治冲突。
 
-**首次出现**: [第12章](../08-present/chip-war.md)
+**首次出现**: [第12章](../08-present/2025-present.md)
 **相关概念**: H100、昇腾910C、算法优化、地缘政治
 
 ---

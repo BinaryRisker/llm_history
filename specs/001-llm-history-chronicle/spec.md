@@ -112,8 +112,8 @@ A reader wants to quickly grasp the overall timeline and major milestones throug
 - **FR-006**: The book MUST include coverage of Chinese AI companies including Baidu (ERNIE), Alibaba (Qwen), and other major players
 - **FR-007**: Each chapter MUST maintain consistent narrative voice, tone, and stylistic approach
 - **FR-008**: Technical concepts MUST be explained in language accessible to readers with basic technical literacy but not necessarily ML expertise
-- **FR-009**: The book MUST include anecdotes, behind-the-scenes stories, and industry insights where they enhance the narrative
-- **FR-010**: Anecdotes and unverified information MUST be clearly distinguished from confirmed facts
+- **FR-009**: The book MUST include anecdotes, behind-the-scenes stories, and industry insights where they enhance the narrative. Target verification ratio: At least 70% of anecdotes fully verified through reliable sources; maximum 30% marked as unverified speculation (must use ⚠️ markers per FR-010)
+- **FR-010**: Anecdotes and unverified information MUST be clearly distinguished from confirmed facts using verification markers (✅ verified, ⚠️ unverified/rumored)
 - **FR-011**: The book MUST include at least one comprehensive timeline visualization showing major milestones chronologically
 - **FR-012**: Each major technical innovation (self-attention, scaling laws, RLHF, etc.) MUST be explained with its significance and impact
 - **FR-013**: The book MUST provide references and citations for major claims and technical details
@@ -121,7 +121,7 @@ A reader wants to quickly grasp the overall timeline and major milestones throug
 - **FR-015**: Chapter titles and section headings MUST be descriptive enough to support navigation and scanning
 - **FR-016**: The narrative MUST clearly explain causal relationships between developments (how one breakthrough enabled the next)
 - **FR-017**: The book MUST cover the period from 2017 through October 2025, providing maximum current coverage while acknowledging that the field continues to evolve rapidly
-- **FR-018**: The book MUST maintain factual accuracy and correct any widely-held misconceptions about LLM history
+- **FR-018**: The book MUST maintain factual accuracy and correct widely-held misconceptions about LLM history. Target: Identify and address 10-15 common misconceptions (e.g., "ChatGPT has AGI", "Scaling alone solves alignment", "LLMs simply memorize", "All Chinese models are copies"). Corrections must be evidence-based and woven naturally into relevant narrative sections
 - **FR-019**: The book MUST include coverage of key hardware developments (GPUs, TPUs) where they significantly impacted LLM progress
 - **FR-020**: The book MUST address significant events like model releases, paper publications, product launches, and major company announcements
 
@@ -147,13 +147,13 @@ A reader wants to quickly grasp the overall timeline and major milestones throug
 
 - **SC-001**: A reader with basic technical literacy can read the entire book and explain the progression from Transformers to ChatGPT in their own words
 - **SC-002**: The book covers at least 50 distinct, significant events/milestones in LLM history from 2017-2025
-- **SC-003**: Each of the following organizations receives dedicated coverage with at least 3 significant developments documented: OpenAI, Google, Meta, Anthropic, Baidu, Alibaba
+- **SC-003**: Each of the following organizations receives dedicated coverage with at least 3 significant developments documented: OpenAI, Google, Meta, Anthropic, Baidu, Alibaba. **Definition of "significant development"**: Published research paper with notable citations/impact, major model release (e.g., GPT-3, BERT, LLaMA), product launch reaching substantial users (e.g., ChatGPT, Bard), or industry-shifting event (e.g., model leak, strategic pivot)
 - **SC-004**: At least 90% of major technical terms are explained on first use with accessible language
 - **SC-005**: Anecdotes and stories appear in at least 60% of chapters, with consistent frequency throughout the book
 - **SC-006**: The book includes at least one comprehensive timeline visualization covering the full 2017-2025 period
 - **SC-007**: Narrative voice and style remain consistent across all chapters (measurable through style analysis or reader feedback)
 - **SC-008**: At least 80% of major factual claims include references or citations to source material
-- **SC-009**: A reader can navigate to any major event (e.g., "ChatGPT launch", "BERT release") within 30 seconds using chapter titles and section headings
+- **SC-009**: A reader can navigate to any major event (e.g., "ChatGPT launch", "BERT release") within 30 seconds using chapter titles and section headings. **Test methodology**: Select 5 major events randomly, use table of contents navigation or Ctrl+F text search in Markdown reader, measure time from start to locating event, success = average <30 seconds across 5 events
 - **SC-010**: Beta readers from the target audience (technical professionals, AI enthusiasts, researchers) rate the book's clarity and engagement at 4/5 or higher
 
 ### Additional Success Indicators
@@ -208,7 +208,7 @@ The following are explicitly NOT included in this feature:
 - **Chronological constraint**: Events must be presented in chronological order with clear temporal markers
 - **Balance constraint**: Coverage must fairly represent global developments (Western and Chinese/Asian contributions)
 - **Markdown constraint**: All content must be compatible with Markdown formatting
-- **Length constraint**: Target comprehensive coverage of 100,000-150,000 Chinese characters (approximately 300-450 pages), allowing for deep coverage of all topics with room for detailed anecdotes and thorough technical explanations
+- **Length constraint**: Target comprehensive coverage of 100,000-150,000 Chinese characters (approximately 300-450 pages). With 11 main chapters, target 9,000-13,500 characters per chapter to ensure total length meets minimum 100K threshold while allowing for detailed anecdotes and thorough technical explanations
 
 ## Notes
 
