@@ -54,5 +54,5 @@ venv/
 
 .claude/
 .specify/
-.claudedocs/
+claudedocs/
 CLAUDE.md
