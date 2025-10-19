@@ -183,12 +183,12 @@ bash scripts/build-all.sh
 
 ## ⚖️ 版权与许可
 
-**© 2025 AI History Chronicler. All rights reserved.**
+**© 2025 BinaryRisker. All rights reserved.**
 
 本书内容受版权保护。个人学习和研究使用欢迎，但**不允许**商业用途、转载、再分发或改编，除非获得明确授权。
 
 引用本书内容请注明：
-> 《大语言模型编年史：从Transformer到ChatGPT的AI革命》，AI History Chronicler，2025年
+> 《大语言模型编年史：从Transformer到ChatGPT的AI革命》，BinaryRisker，2025年
 
 ---
 

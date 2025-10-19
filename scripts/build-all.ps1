@@ -91,7 +91,7 @@ $htmlArgs = $htmlFiles + @(
     "--number-sections",
     "--css=config/html-style.css",
     "--metadata", "title=LLM History Chronicle",
-    "--metadata", "author=AI History Chronicler"
+    "--metadata", "author=BinaryRisker"
 )
 & pandoc $htmlArgs
 
