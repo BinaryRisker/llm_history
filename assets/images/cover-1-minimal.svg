@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 简约风格 - 纯色背景 + 排版 -->
+
+  <!-- Background -->
+  <rect width="800" height="1200" fill="#1a1a2e"/>
+
+  <!-- Simple accent line -->
+  <rect x="0" y="0" width="800" height="8" fill="#0f4c75"/>
+  <rect x="0" y="1192" width="800" height="8" fill="#0f4c75"/>
+
+  <!-- Main title -->
+  <g transform="translate(400, 400)">
+    <text x="0" y="0"
+          font-family="SimHei, Microsoft YaHei, sans-serif"
+          font-size="72"
+          font-weight="bold"
+          fill="#ffffff"
+          text-anchor="middle"
+          letter-spacing="8">
+      大语言模型
+    </text>
+    <text x="0" y="90"
+          font-family="SimHei, Microsoft YaHei, sans-serif"
+          font-size="72"
+          font-weight="bold"
+          fill="#ffffff"
+          text-anchor="middle"
+          letter-spacing="8">
+      编年史
+    </text>
+
+    <!-- Divider -->
+    <line x1="-200" y1="150" x2="200" y2="150"
+          stroke="#0f4c75"
+          stroke-width="3"/>
+
+    <!-- Subtitle -->
+    <text x="0" y="220"
+          font-family="SimSun, Microsoft YaHei, sans-serif"
+          font-size="26"
+          fill="#bbbbbb"
+          text-anchor="middle">
+      从Transformer到ChatGPT的AI革命
+    </text>
+
+    <!-- English title -->
+    <text x="0" y="280"
+          font-family="Georgia, serif"
+          font-size="18"
+          font-style="italic"
+          fill="#888888"
+          text-anchor="middle">
+      Chronicle of Large Language Models
+    </text>
+  </g>
+
+  <!-- Simple timeline dots -->
+  <g transform="translate(150, 850)">
+    <circle cx="0" cy="0" r="6" fill="#0f4c75"/>
+    <circle cx="125" cy="0" r="6" fill="#0f4c75" opacity="0.6"/>
+    <circle cx="250" cy="0" r="6" fill="#0f4c75" opacity="0.6"/>
+    <circle cx="375" cy="0" r="6" fill="#0f4c75" opacity="0.6"/>
+    <circle cx="500" cy="0" r="6" fill="#0f4c75"/>
+
+    <text x="0" y="30" font-family="Arial" font-size="16" fill="#888888" text-anchor="middle">2017</text>
+    <text x="500" y="30" font-family="Arial" font-size="16" fill="#888888" text-anchor="middle">2025</text>
+  </g>
+
+  <!-- Author -->
+  <text x="400" y="1100"
+        font-family="Arial, sans-serif"
+        font-size="20"
+        fill="#888888"
+        text-anchor="middle">
+    AI History Chronicler · 2025
+  </text>
+</svg>

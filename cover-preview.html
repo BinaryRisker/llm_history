@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>封面预览 - 大语言模型编年史</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: rgba(255,255,255,0.9);
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .covers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .cover-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cover-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        }
+
+        .cover-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .cover-info {
+            padding: 20px;
+        }
+
+        .cover-title {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .cover-description {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .cover-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            background: #f0f0f0;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            color: #555;
+        }
+
+        .instructions {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            margin-top: 40px;
+        }
+
+        .instructions h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .instructions ol {
+            margin-left: 20px;
+            line-height: 2;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .code-block {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: "Consolas", "Monaco", monospace;
+            margin: 10px 0;
+            border-left: 4px solid #667eea;
+        }
+
+        .recommendation {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .recommendation strong {
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 大语言模型编年史 - 封面设计预览</h1>
+        <p class="subtitle">从简约到复杂，5种风格任你选择</p>
+
+        <div class="covers-grid">
+            <!-- Cover 1: Minimal -->
+            <div class="cover-card">
+                <img src="assets/images/cover-1-minimal.svg" alt="简约风格" class="cover-image">
+                <div class="cover-info">
+                    <div class="cover-title">1️⃣ 简约风格 (Minimal)</div>
+                    <div class="cover-description">
+                        纯色背景搭配优雅排版，强调文字的力量。适合喜欢简洁设计和学术氛围的读者。
+                    </div>
+                    <div class="cover-tags">
+                        <span class="tag">简约</span>
+                        <span class="tag">优雅</span>
+                        <span class="tag">学术</span>
+                        <span class="tag">专业</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cover 2: Geometric -->
+            <div class="cover-card">
+                <img src="assets/images/cover-2-geometric.svg" alt="几何风格" class="cover-image">
+                <div class="cover-info">
+                    <div class="cover-title">2️⃣ 几何风格 (Geometric)</div>
+                    <div class="cover-description">
+                        抽象神经网络几何图形，展现AI的结构美感。渐变背景增添现代科技感。
+                    </div>
+                    <div class="cover-tags">
+                        <span class="tag">几何</span>
+                        <span class="tag">神经网络</span>
+                        <span class="tag">现代</span>
+                        <span class="tag">艺术</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cover 3: Tech -->
+            <div class="cover-card">
+                <img src="assets/images/cover-3-tech.svg" alt="科技风格" class="cover-image">
+                <div class="cover-info">
+                    <div class="cover-title">3️⃣ 科技风格 (Tech)</div>
+                    <div class="cover-description">
+                        AI芯片与数字电路，代码般的设计语言。完美诠释技术与创新的融合。
+                    </div>
+                    <div class="cover-tags">
+                        <span class="tag">科技</span>
+                        <span class="tag">芯片</span>
+                        <span class="tag">电路</span>
+                        <span class="tag">未来</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cover 4: Brain -->
+            <div class="cover-card">
+                <img src="assets/images/cover-4-brain.svg" alt="神经风格" class="cover-image">
+                <div class="cover-info">
+                    <div class="cover-title">4️⃣ 神经风格 (Brain)</div>
+                    <div class="cover-description">
+                        大脑与神经网络的完美融合，象征人工智能的本质。发光效果增添神秘感。
+                    </div>
+                    <div class="cover-tags">
+                        <span class="tag">大脑</span>
+                        <span class="tag">神经元</span>
+                        <span class="tag">生物</span>
+                        <span class="tag">智能</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cover 5: Complex -->
+            <div class="cover-card">
+                <img src="assets/images/cover-5-complex.svg" alt="复杂风格" class="cover-image">
+                <div class="cover-info">
+                    <div class="cover-title">5️⃣ 复杂风格 (Complex)</div>
+                    <div class="cover-description">
+                        多层神经网络可视化、数据流动、完整时间轴。最丰富的设计，展现AI发展的全貌。
+                    </div>
+                    <div class="cover-tags">
+                        <span class="tag">多层网络</span>
+                        <span class="tag">时间轴</span>
+                        <span class="tag">数据流</span>
+                        <span class="tag">全面</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h2>📋 如何选择和使用封面</h2>
+
+            <div class="recommendation">
+                <strong>💡 推荐：</strong>
+                如果不确定选哪个，建议使用 <strong>封面4（神经风格）</strong> 或 <strong>封面5（复杂风格）</strong>，
+                它们在视觉冲击力和内容相关性上达到了最佳平衡。
+            </div>
+
+            <h3 style="margin-top: 30px; color: #333;">方法1：直接告诉我你选择的封面号</h3>
+            <p style="margin: 10px 0; color: #666;">
+                只需告诉我："我选择封面X"，我会自动更新构建脚本使用你选择的封面。
+            </p>
+
+            <h3 style="margin-top: 30px; color: #333;">方法2：手动修改配置文件</h3>
+            <ol>
+                <li>
+                    打开 <code>config/epub-metadata.yaml</code> 文件
+                </li>
+                <li>
+                    找到 <code>cover-image</code> 这一行，修改为你选择的封面：
+                    <div class="code-block">
+cover-image: "assets/images/cover-1-minimal.svg"     # 简约风格<br>
+cover-image: "assets/images/cover-2-geometric.svg"   # 几何风格<br>
+cover-image: "assets/images/cover-3-tech.svg"        # 科技风格<br>
+cover-image: "assets/images/cover-4-brain.svg"       # 神经风格<br>
+cover-image: "assets/images/cover-5-complex.svg"     # 复杂风格
+                    </div>
+                </li>
+                <li>
+                    运行构建脚本重新生成所有格式：
+                    <div class="code-block">.\scripts\build-all.ps1</div>
+                </li>
+            </ol>
+
+            <h3 style="margin-top: 30px; color: #333;">各格式中的封面效果</h3>
+            <ul style="margin-left: 20px; line-height: 2; color: #666;">
+                <li><strong>HTML：</strong> 封面显示在文档开头</li>
+                <li><strong>ePub：</strong> 封面作为电子书封面页（标准ePub封面）</li>
+                <li><strong>PDF：</strong> 封面作为第一页（可选择是否包含）</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

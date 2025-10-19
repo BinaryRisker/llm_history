@@ -6,6 +6,10 @@ Write-Host "LLM History Chronicle - Format Conversion" -ForegroundColor Cyan
 Write-Host "=========================================" -ForegroundColor Cyan
 Write-Host ""
 
+# Default cover image (you can change this to any cover 1-5)
+$coverImage = "assets/images/cover-5-complex.svg"
+Write-Host "[INFO] Using cover: $coverImage" -ForegroundColor Cyan
+
 # Check if Pandoc is installed
 if (-not (Get-Command pandoc -ErrorAction SilentlyContinue)) {
     Write-Host "[ERROR] Pandoc not installed" -ForegroundColor Red
@@ -71,7 +75,16 @@ Write-Host ""
 # 1. Generate HTML
 Write-Host "[1/3] Generating HTML..." -ForegroundColor Yellow
 try {
+    # Create cover page HTML
+    $coverHtml = @"
+<div style="text-align: center; page-break-after: always;">
+    <img src="$coverImage" alt="Book Cover" style="max-width: 100%; height: auto;">
+</div>
+"@
+    $coverHtml | Out-File -FilePath "temp-cover.html" -Encoding UTF8
+
     $htmlArgs = @(
+        "temp-cover.html",
         $mdFiles,
         "-o", "output/llm-history-chronicle.html",
         "--standalone",
@@ -84,12 +97,16 @@ try {
     )
     & pandoc $htmlArgs
 
+    # Clean up temp file
+    Remove-Item "temp-cover.html" -ErrorAction SilentlyContinue
+
     if (Test-Path "output/llm-history-chronicle.html") {
         $htmlSize = (Get-Item "output/llm-history-chronicle.html").Length / 1KB
-        Write-Host "[OK] HTML generated: output/llm-history-chronicle.html ($([math]::Round($htmlSize, 1)) KB)" -ForegroundColor Green
+        Write-Host "[OK] HTML generated with cover: output/llm-history-chronicle.html ($([math]::Round($htmlSize, 1)) KB)" -ForegroundColor Green
     }
 } catch {
     Write-Host "[ERROR] HTML generation failed: $_" -ForegroundColor Red
+    Remove-Item "temp-cover.html" -ErrorAction SilentlyContinue
 }
 
 # 2. Generate ePub
@@ -156,4 +173,14 @@ if (Test-Path "output/llm-history-chronicle.*") {
 Write-Host ""
 Write-Host "[SUCCESS] Format conversion completed!" -ForegroundColor Green
 Write-Host "[INFO] Chapters ordered chronologically (2017-2025)" -ForegroundColor Green
+Write-Host "[INFO] Cover image: $coverImage" -ForegroundColor Green
+Write-Host ""
+Write-Host "To use a different cover, edit line 10 in this script:" -ForegroundColor Cyan
+Write-Host "  cover-1-minimal.svg   - Simple and elegant" -ForegroundColor White
+Write-Host "  cover-2-geometric.svg - Geometric neural network" -ForegroundColor White
+Write-Host "  cover-3-tech.svg      - Tech and AI chip" -ForegroundColor White
+Write-Host "  cover-4-brain.svg     - Brain and neurons" -ForegroundColor White
+Write-Host "  cover-5-complex.svg   - Multi-layer network (default)" -ForegroundColor White
+Write-Host ""
+Write-Host "See cover preview: start cover-preview.html" -ForegroundColor Cyan
 Write-Host "See report: output/FORMAT_CONVERSION_REPORT.md" -ForegroundColor Cyan
